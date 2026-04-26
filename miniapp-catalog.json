@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-04-26T01:59:03.410Z",
+  "apps": [
+    {
+      "slug": "hello-miniapp",
+      "name": "Hello Mini App",
+      "subtitle": "A practical Farcaster starter",
+      "description": "A lightweight starter Mini App for App Factory.",
+      "primaryCategory": "utility",
+      "baseUrl": "http://localhost:3000",
+      "manifest": {
+        "version": "1",
+        "name": "Hello Mini App",
+        "subtitle": "A practical Farcaster starter",
+        "description": "A lightweight starter Mini App for App Factory.",
+        "primaryCategory": "utility",
+        "homeUrl": "http://localhost:3000/",
+        "iconUrl": "http://localhost:3000/assets/icon.svg",
+        "imageUrl": "http://localhost:3000/assets/embed.svg",
+        "buttonTitle": "Open Hello",
+        "splashImageUrl": "http://localhost:3000/assets/splash.svg",
+        "splashBackgroundColor": "#0F172A",
+        "webhookUrl": "http://localhost:3000/api/webhook"
+      }
+    }
+  ]
+}

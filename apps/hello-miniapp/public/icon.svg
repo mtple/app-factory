@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Hello Mini App icon">
+  <rect width="512" height="512" rx="64" fill="#0F172A"/>
+  <circle cx="256" cy="256" r="150" fill="#38BDF8"/>
+  <path d="M178 274c28 52 128 52 156 0" fill="none" stroke="#0F172A" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="210" cy="218" r="22" fill="#0F172A"/>
+  <circle cx="302" cy="218" r="22" fill="#0F172A"/>
+</svg>

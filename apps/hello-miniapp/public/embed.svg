@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Hello Mini App embed image">
+  <rect width="1200" height="630" fill="#F8FAFC"/>
+  <rect x="70" y="70" width="1060" height="490" rx="28" fill="#0F172A"/>
+  <circle cx="335" cy="315" r="150" fill="#38BDF8"/>
+  <path d="M250 345c36 62 134 62 170 0" fill="none" stroke="#0F172A" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="292" cy="284" r="24" fill="#0F172A"/>
+  <circle cx="378" cy="284" r="24" fill="#0F172A"/>
+  <text x="555" y="292" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="76" font-weight="700">Hello Mini App</text>
+  <text x="558" y="374" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="34">A practical Farcaster starter</text>
+</svg>

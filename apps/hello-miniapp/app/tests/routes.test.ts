@@ -1,0 +1,41 @@
+import { describe, expect, it } from "vitest";
+import { GET as getManifest } from "../.well-known/farcaster.json/route";
+import { GET as getWebhook, POST as postWebhook } from "../api/webhook/route";
+
+describe("hello mini app routes", () => {
+  it("serves the Farcaster manifest", async () => {
+    const response = getManifest();
+    const json = await response.json();
+
+    expect(json.miniapp).toMatchObject({
+      version: "1",
+      name: "Hello Mini App",
+      homeUrl: "http://localhost:3000/"
+    });
+  });
+
+  it("serves webhook health", async () => {
+    const response = getWebhook();
+
+    await expect(response.json()).resolves.toEqual({
+      ok: true,
+      endpoint: "hello-miniapp webhook"
+    });
+  });
+
+  it("accepts webhook POST events", async () => {
+    const response = await postWebhook(
+      new Request("http://localhost:3000/api/webhook", {
+        method: "POST",
+        body: JSON.stringify({ event: "test" })
+      })
+    );
+    const json = await response.json();
+
+    expect(json).toMatchObject({
+      ok: true,
+      body: { event: "test" }
+    });
+    expect(json.receivedAt).toEqual(expect.any(String));
+  });
+});

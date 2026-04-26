@@ -1,0 +1,25 @@
+{
+  "name": "app-factory",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "catalog": "tsx scripts/generate-catalog.ts",
+    "create:miniapp": "tsx scripts/create-miniapp.ts",
+    "list:miniapps": "tsx scripts/list-miniapps.ts",
+    "test": "vitest run scripts && turbo run test",
+    "typecheck": "tsc -p tsconfig.scripts.json --noEmit && turbo run typecheck",
+    "validate:miniapp": "tsx scripts/validate-miniapp.ts"
+  },
+  "dependencies": {
+    "@app-factory/farcaster": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "turbo": "^2.9.6",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
+  }
+}

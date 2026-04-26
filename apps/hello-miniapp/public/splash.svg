@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-label="Hello Mini App splash">
+  <rect width="1200" height="1200" fill="#0F172A"/>
+  <circle cx="600" cy="560" r="250" fill="#38BDF8"/>
+  <path d="M460 610c56 96 224 96 280 0" fill="none" stroke="#0F172A" stroke-width="48" stroke-linecap="round"/>
+  <circle cx="520" cy="500" r="34" fill="#0F172A"/>
+  <circle cx="680" cy="500" r="34" fill="#0F172A"/>
+  <text x="600" y="930" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="74" font-weight="700">Hello Mini App</text>
+</svg>

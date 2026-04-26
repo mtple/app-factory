@@ -1,0 +1,21 @@
+{
+  "name": "@app-factory/ui",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
+  }
+}
