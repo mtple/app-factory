@@ -30,3 +30,26 @@ export function buildMiniAppMetadata(config: MiniAppConfig): Record<MiniAppMetaT
   const meta = buildMiniAppMetaTag(config);
   return { [meta.name]: meta.content };
 }
+
+export function buildWebMetadata(config: MiniAppConfig): Record<string, string> {
+  const description = config.description ?? "";
+  const ogImage = absoluteUrl(config.baseUrl, config.embedImagePath);
+  const ogUrl = absoluteUrl(config.baseUrl, config.homePath);
+  const miniAppMeta = buildMiniAppMetadata(config);
+
+  return {
+    ...miniAppMeta,
+    "og:title": config.name,
+    "og:description": description,
+    "og:image": ogImage,
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:url": ogUrl,
+    "og:type": "website",
+    "og:site_name": config.name,
+    "twitter:card": "summary_large_image",
+    "twitter:title": config.name,
+    "twitter:description": description,
+    "twitter:image": ogImage
+  };
+}

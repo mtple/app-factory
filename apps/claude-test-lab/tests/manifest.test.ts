@@ -12,7 +12,7 @@ describe("claude test lab manifest helpers", () => {
     expect(claudeTestLabManifest.miniapp).toMatchObject({
       version: "1",
       name: "Claude Test Lab",
-      iconUrl: "http://localhost:3001/assets/icon.svg"
+      iconUrl: "http://localhost:3001/assets/icon.png"
     });
   });
 });

@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "generatedAt": "2026-06-21T15:05:30.296Z",
   "apps": [
+    {
+      "slug": "claude-test-lab",
+      "name": "Claude Test Lab",
+      "subtitle": "Farcaster Mini App diagnostics",
+      "description": "A playful test lab that checks SDK readiness, embed metadata, and the manifest route.",
+      "primaryCategory": "utility",
+      "baseUrl": "http://localhost:3001",
+      "manifest": {
+        "version": "1",
+        "name": "Claude Test Lab",
+        "subtitle": "Farcaster Mini App diagnostics",
+        "description": "A playful test lab that checks SDK readiness, embed metadata, and the manifest route.",
+        "primaryCategory": "utility",
+        "homeUrl": "http://localhost:3001/",
+        "iconUrl": "http://localhost:3001/assets/icon.png",
+        "imageUrl": "http://localhost:3001/assets/embed.png",
+        "buttonTitle": "Open Test Lab",
+        "splashImageUrl": "http://localhost:3001/assets/splash.png",
+        "splashBackgroundColor": "#1E1B4B",
+        "webhookUrl": "http://localhost:3001/api/webhook"
+      }
+    },
     {
       "slug": "hello-miniapp",
       "name": "Hello Mini App",
@@ -21,28 +43,6 @@
         "splashImageUrl": "http://localhost:3000/assets/splash.svg",
         "splashBackgroundColor": "#0F172A",
         "webhookUrl": "http://localhost:3000/api/webhook"
-      }
-    },
-    {
-      "slug": "claude-test-lab",
-      "name": "Claude Test Lab",
-      "subtitle": "Farcaster Mini App diagnostics",
-      "description": "A playful test lab that checks SDK readiness, embed metadata, and the manifest route.",
-      "primaryCategory": "utility",
-      "baseUrl": "http://localhost:3001",
-      "manifest": {
-        "version": "1",
-        "name": "Claude Test Lab",
-        "subtitle": "Farcaster Mini App diagnostics",
-        "description": "A playful test lab that checks SDK readiness, embed metadata, and the manifest route.",
-        "primaryCategory": "utility",
-        "homeUrl": "http://localhost:3001/",
-        "iconUrl": "http://localhost:3001/assets/icon.svg",
-        "imageUrl": "http://localhost:3001/assets/embed.svg",
-        "buttonTitle": "Open Test Lab",
-        "splashImageUrl": "http://localhost:3001/assets/splash.svg",
-        "splashBackgroundColor": "#1E1B4B",
-        "webhookUrl": "http://localhost:3001/api/webhook"
       }
     }
   ]

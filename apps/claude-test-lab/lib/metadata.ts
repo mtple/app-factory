@@ -1,16 +1,12 @@
 import type { Metadata, Viewport } from "next";
-import { buildMiniAppMetaTag, type MiniAppConfig } from "@app-factory/farcaster";
+import { buildWebMetadata, type MiniAppConfig } from "@app-factory/farcaster";
 import { claudeTestLabConfig } from "../app/config";
 
 export function buildClaudeTestLabMetadata(config: MiniAppConfig = claudeTestLabConfig): Metadata {
-  const miniappMeta = buildMiniAppMetaTag(config);
-
   return {
     title: config.name,
     description: config.description,
-    other: {
-      [miniappMeta.name]: miniappMeta.content
-    }
+    other: buildWebMetadata(config)
   };
 }
 

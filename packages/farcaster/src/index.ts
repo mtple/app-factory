@@ -6,7 +6,7 @@ export {
 } from "./config";
 export { buildComposeUrl } from "./compose";
 export { buildFarcasterManifest, buildMiniAppManifest } from "./manifest";
-export { buildMiniAppEmbed, buildMiniAppMetadata, buildMiniAppMetaTag } from "./metadata";
+export { buildMiniAppEmbed, buildMiniAppMetadata, buildMiniAppMetaTag, buildWebMetadata } from "./metadata";
 export { loadMiniAppSdk, readyMiniApp, type MiniAppReadySdk } from "./sdk";
 export {
   type ComposeUrlOptions,

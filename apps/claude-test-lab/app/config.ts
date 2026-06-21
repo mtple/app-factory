@@ -19,10 +19,10 @@ export const claudeTestLabConfig = miniAppConfigSchema.parse({
   primaryCategory: "utility",
   baseUrl: process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:3001",
   homePath: "/",
-  iconPath: "/assets/icon.svg",
-  splashImagePath: "/assets/splash.svg",
+  iconPath: "/assets/icon.png",
+  splashImagePath: "/assets/splash.png",
   splashBackgroundColor: "#1E1B4B",
-  embedImagePath: "/assets/embed.svg",
+  embedImagePath: "/assets/embed.png",
   embedButtonTitle: "Open Test Lab",
   webhookPath: "/api/webhook",
   accountAssociation
