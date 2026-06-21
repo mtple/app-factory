@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Claude Test Lab splash">
+  <rect width="512" height="512" fill="#1E1B4B"/>
+  <rect x="120" y="60" width="272" height="340" rx="20" fill="#2E1065"/>
+  <rect x="148" y="88" width="216" height="14" rx="7" fill="#A78BFA"/>
+  <rect x="148" y="118" width="152" height="10" rx="5" fill="#6D28D9"/>
+  <rect x="148" y="144" width="180" height="10" rx="5" fill="#6D28D9"/>
+  <path d="M196 320 L196 390 Q196 408 214 408 L298 408 Q316 408 316 390 L316 320 Z" fill="#7C3AED"/>
+  <circle cx="236" cy="370" r="10" fill="#C4B5FD"/>
+  <circle cx="256" cy="376" r="10" fill="#DDD6FE"/>
+  <circle cx="276" cy="370" r="10" fill="#C4B5FD"/>
+  <text x="256" y="472" fill="#A78BFA" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Claude Test Lab</text>
+</svg>
