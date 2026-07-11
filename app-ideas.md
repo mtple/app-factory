@@ -4,8 +4,8 @@ Approved App Factory ideas for future builds. App Factory builds full useful app
 
 ## Queue
 
-1. **Farcaster Call Companion** (`farcaster-call-companion`) — Recurring app for the biweekly Farcaster community calls. Before the call: agenda, RSVP, question submission/upvoting, demo/topic suggestions. During the call: live companion board, links mentioned, lightweight reactions, “what did they just announce?” notes. After the call: AI-assisted recap, key links, action items, unresolved questions, next-call suggestions, and a shareable recap card.
-2. **Palette Potion** (`palette-potion`) — Lightweight brand design-system studio for builders. User enters a brand vibe; server-side LLM interprets audience, mood, energy/trust level, colors to avoid, and recommended hue families; deterministic engine generates accessible brand tokens, editable palette, component previews, CSS variables export, Tailwind config export, and a shareable Farcaster card.
+1. **Palette Potion** (`palette-potion`) — Lightweight brand design-system studio for builders. User enters a brand vibe; server-side LLM interprets audience, mood, energy/trust level, colors to avoid, and recommended hue families; deterministic engine generates accessible brand tokens, editable palette, component previews, CSS variables export, Tailwind config export, and a shareable Farcaster card.
+2. **Farcaster Call Companion** (`farcaster-call-companion`) — Recurring app for the biweekly Farcaster community calls. Before the call: agenda, RSVP, question submission/upvoting, demo/topic suggestions. During the call: live companion board, links mentioned, lightweight reactions, “what did they just announce?” notes. After the call: AI-assisted recap, key links, action items, unresolved questions, next-call suggestions, and a shareable recap card.
 
 ## Candidates
 
