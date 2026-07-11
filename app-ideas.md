@@ -6,6 +6,9 @@ Approved App Factory ideas for future builds. App Factory builds full useful app
 
 1. **Palette Potion** (`palette-potion`) — Lightweight brand design-system studio for builders. User enters a brand vibe; server-side LLM interprets audience, mood, energy/trust level, colors to avoid, and recommended hue families; deterministic engine generates accessible brand tokens, editable palette, component previews, CSS variables export, Tailwind config export, and a shareable Farcaster card.
 2. **Farcaster Call Companion** (`farcaster-call-companion`) — Recurring app for the biweekly Farcaster community calls. Before the call: agenda, RSVP, question submission/upvoting, demo/topic suggestions. During the call: live companion board, links mentioned, lightweight reactions, “what did they just announce?” notes. After the call: AI-assisted recap, key links, action items, unresolved questions, next-call suggestions, and a shareable recap card.
+3. **Cast Lab** (`cast-lab`) — Farcaster writing studio for casts, replies, and threads. Draft, score, rewrite, and compare variants for clarity, bait, warmth, specificity, cringe risk, and shareability; save drafts by project/campaign; compose the best version back to Farcaster.
+4. **Signal Desk** (`signal-desk`) — Farcaster discovery and channel-intelligence console. Pick channels/topics/accounts, summarize the current “weather,” surface notable casts, track recurring themes, save useful links, generate daily briefings, and share channel report cards.
+5. **Launch Room** (`launch-room`) — Builder launch workspace that combines positioning, brand kit, launch checklist, cast hooks, feedback questions, and post-launch autopsy into one saved project flow.
 
 ## Candidates
 
