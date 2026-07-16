@@ -43,7 +43,7 @@ export function buildWebMetadata(config: MiniAppConfig): Record<string, string> 
     "og:description": description,
     "og:image": ogImage,
     "og:image:width": "1200",
-    "og:image:height": "630",
+    "og:image:height": "800",
     "og:url": ogUrl,
     "og:type": "website",
     "og:site_name": config.name,

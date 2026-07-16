@@ -43,7 +43,7 @@ describe("claude test lab metadata helpers", () => {
     expect(other["og:title"]).toBe(claudeTestLabConfig.name);
     expect(other["og:description"]).toBe(claudeTestLabConfig.description);
     expect(other["og:image:width"]).toBe("1200");
-    expect(other["og:image:height"]).toBe("630");
+    expect(other["og:image:height"]).toBe("800");
     expect(other["og:type"]).toBe("website");
     expect(other["og:site_name"]).toBe(claudeTestLabConfig.name);
   });

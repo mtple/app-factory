@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@source "../../../packages/ui/src";
+
+:root {
+  color-scheme: light;
+  background: #f5f3ff;
+}
+
+body {
+  margin: 0;
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T15:05:30.296Z",
+  "generatedAt": "2026-07-16T15:07:57.302Z",
   "apps": [
     {
       "slug": "claude-test-lab",
@@ -43,6 +43,28 @@
         "splashImageUrl": "http://localhost:3000/assets/splash.svg",
         "splashBackgroundColor": "#0F172A",
         "webhookUrl": "http://localhost:3000/api/webhook"
+      }
+    },
+    {
+      "slug": "palette-potion",
+      "name": "Palette Potion",
+      "subtitle": "Brand color lab for builders",
+      "description": "Turn a brand vibe into accessible color tokens, UI previews, CSS variables, and a share-ready palette card.",
+      "primaryCategory": "productivity",
+      "baseUrl": "http://localhost:3002",
+      "manifest": {
+        "version": "1",
+        "name": "Palette Potion",
+        "subtitle": "Brand color lab for builders",
+        "description": "Turn a brand vibe into accessible color tokens, UI previews, CSS variables, and a share-ready palette card.",
+        "primaryCategory": "productivity",
+        "homeUrl": "http://localhost:3002/",
+        "iconUrl": "http://localhost:3002/assets/icon.png",
+        "imageUrl": "http://localhost:3002/assets/embed.png",
+        "buttonTitle": "Open Palette Potion",
+        "splashImageUrl": "http://localhost:3002/assets/splash.png",
+        "splashBackgroundColor": "#271138",
+        "webhookUrl": "http://localhost:3002/api/webhook"
       }
     }
   ]
