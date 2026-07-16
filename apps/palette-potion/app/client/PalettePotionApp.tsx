@@ -43,7 +43,7 @@ export function PalettePotionApp() {
       setResult(data.result);
       setMode(data.mode);
       setStatus("idle");
-      setMessage(data.mode === "llm-assisted" ? "LLM read complete. Tokens are deterministic and exportable." : "No LLM key available, so Palette Potion used its deterministic fallback.");
+      setMessage(data.mode === "llm-assisted" ? "AI read complete. Tokens are deterministic and exportable." : "Brewed with the local palette engine; AI assist was unavailable for this run.");
     } catch (error) {
       setResult(generatePalette(brief));
       setMode("deterministic-fallback");
